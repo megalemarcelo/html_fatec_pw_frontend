@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Cadastro | Loja de Relógios</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div id="header">
+
+                <div class="header-esquerda">
+                  <a href="vitrine.html"><img src="imagens/logo.png" id="logo" height="100"></a>
+                </div>
+
+                <div class="header-direita">
+                    <a href="login.html">Fazer login     <img src="imagens/login.png" height="35"></a>
+                </div>
+
+                <div class="header-central">
+                  <div class="busca">
+                      
+                          <input type="text" placeholder="Buscar produtos..." name="txtBusca">
+                          <a href="produto-busca.html">
+                              <button class="btnBuscar">Buscar</button>
+                          </a>
+                      
+                  </div>
+              </div>
+          </div>
+
+          <div class="menu-horizontal">
+            <nav>
+                <ul>
+                    <li><a href="">Todos os produtos</a></li>
+                    <li><a href="">Produtos por categoria</a></li>
+                    <li><a href="cesta.html">Cesta</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header> <br>
+
+        <div class="jumbotron">
+            <h2>Menu de Cadastro</h2>
+        </div>
+        
+        <div class=""
+        <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+            <div class="container h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                  <div class="card" style="border-radius: 15px;">
+                    <div class="card-body p-5">
+        
+                      <form>
+        
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example1cg">Nome completo</label>
+                          <input type="text" id="nomecadastro" name="nomecadastro" class="form-control form-control-lg" placeholder="Digite seu nome..." />
+                        </div><br>
+        
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example3cg">Endereço de e-mail</label>
+                          <input type="email" id="emailcadastro" name="emailcadastro" class="form-control form-control-lg" placeholder="Digite seu e-mail..."/>
+                        </div><br>
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example3cg">CPF</label>
+                          <input type="email" id="cpfcadastro" name="cpfcadastro" class="form-control form-control-lg" placeholder="Informe o seu CPF..."/>
+                        </div><br>
+        
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example4cg">Senha</label>
+                          <input type="password" id="senhacadastro" name="senhacadastro" class="form-control form-control-lg" placeholder="Crie uma senha..."/>
+                        </div><br>
+        
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example4cdg">Confirme sua senha</label>
+                          <input type="password" id="confirmasenhacadastro" name="confirmasenhacadastro" class="form-control form-control-lg" placeholder="Repita sua senha..."/>
+                        </div> <br>
+        
+                        <div class="form-check d-flex justify-content-center mb-5">
+                          <input class="form-check-input me-2" type="checkbox" value="" id="lieconcordo" name="lieconcordo" />
+                          <label class="form-check-label" for="form2Example3g">
+                            Li e Concordo com as Políticas de Privacidade
+                          </label>
+                        </div><br>
+        
+                        <div class="d-flex justify-content-center">
+                          <button type="button"
+                            class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" onclick="validar_cadastro()">Finalizar Cadastro</button>
+                        </div>
+        
+                      </form>
+        
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+          <footer>
+            <div id="footer">
+                <hr>
+
+                <div class="footer-esquerda">
+                    <p>Formas de pagamento</p>
+                    <img src="imagens/cartoes.png" height="70">
+                </div>
+
+                <div class="footer-central">
+                    <p>Redes sociais</p>
+                    <img src="imagens/redes.png" height="65">
+                </div>
+
+                <div class="footer-direita">
+                    <p><a href="mapa.html">Mapa do Site</a></p>
+                    <img src="">
+                    <br>
+                    <strong>Loja Virtual FrontEnd | P1 PW © 2/2022</strong> </br>
+                    <em>Marcelo Megale</em>
+                </div>
+
+                <p>⠀</p>
+
+            </div>
+        </footer>
+
+</body>
+
+</html>

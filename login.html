@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Login | Loja de Relógios</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div id="header">
+
+                <div class="header-esquerda">
+                    <a href="vitrine.html"><img src="imagens/logo.png" id="logo" height="100"></a>
+                </div>
+
+                <div class="header-direita">
+                    <a href="login.html">Fazer login     <img src="imagens/login.png" height="35"></a>
+                </div>
+
+                <div class="header-central">
+                    <div class="busca">
+                        
+                            <input type="text" placeholder="Buscar produtos..." name="txtBusca">
+                            <a href="produto-busca.html">
+                                <button class="btnBuscar">Buscar</button>
+                            </a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-horizontal">
+                <nav>
+                    <ul>
+                        <li><a href="">Todos os produtos</a></li>
+                        <li><a href="">Produtos por categoria</a></li>
+                        <li><a href="cesta.html">Cesta</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <br>
+        
+        <div class="login_container">
+
+        <center> <div class="login">
+            <form>
+                <h1 class="h2 mb-3 fw-normal">Login</h1><br>
+            
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input id="emaillogin" name="emaillogin" placeholder="Insira seu e-mail" class="form-control" type="email">
+                </div> <br><br>
+
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="senhalogin" name="senhalogin" placeholder="Insira sua senha" class="form-control" type="password">
+                </div> <br>
+
+                <div class="checkbox mb-3">
+                    <label>
+                    <input type="checkbox" value="remember-me">Lembrar minhas credenciais</label>
+                </div>
+
+                <div class="link-esqueci">
+                    <label>
+                    <a href="esqueci.html">Esqueci minha senha</a></label>
+                </div><br>
+
+                <button class="w-100 btn btn-lg btn-primary" onclick="validar_login()">Login</button>
+            </form>
+        </div>
+
+        <center> <div class="cadastrar">
+                <h1 class="h2 mb-3 fw-normal">Ainda não tenho cadastro</h1><br>
+                <a href="cadastro.html"> <button class="w-100 btn btn-lg btn-primary">Cadastrar-se</button></a>
+        </div>
+        </div></center>
+
+
+        <footer>
+            <div id="footer">
+                <hr>
+  
+                <div class="footer-esquerda">
+                    <p>Formas de pagamento</p>
+                    <img src="imagens/cartoes.png" height="70">
+                </div>
+  
+                <div class="footer-central">
+                    <p>Redes sociais</p>
+                    <img src="imagens/redes.png" height="65">
+                </div>
+  
+                <div class="footer-direita">
+                    <p><a href="mapa.html">Mapa do Site</a></p>
+                    <img src="">
+                    <br>
+                    <strong>Loja Virtual FrontEnd | P1 PW © 2/2022</strong> </br>
+                    <em>Marcelo Megale</em>
+                </div>
+  
+                <p>⠀</p>
+  
+            </div>
+        </footer>
+
+</body>
+
+</html>

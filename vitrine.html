@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Vitrine | Loja de Relógios</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div id="header">
+
+                <div class="header-esquerda">
+                    <a href="vitrine.html"><img src="imagens/logo.png" id="logo" height="100"></a>
+                </div>
+
+                <div class="header-direita">
+                    <a href="login.html">Fazer login     <img src="imagens/login.png" height="35"></a>
+                </div>
+
+
+                <div class="header-central">
+                    <div class="busca">
+                        
+                            <input type="text" placeholder="Buscar produtos..." name="txtBusca" id="txtBusca">
+                            <a href="produto-busca.html">
+                                <button class="btnBuscar" onclick="validar_busca()">Buscar</button>
+                            </a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-horizontal">
+                <nav>
+                    <ul>
+                        <li><a href="">Todos os produtos</a></li>
+                        <li><a href="">Produtos por categoria</a></li>
+                        <li><a href="cesta.html">Cesta</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <div class="vitrine">
+            <div class="produto">
+                <div id="produto1">
+                    <img src="imagens/rolex-explorer.png" height="125">
+                    <a href="produto-detalhe.html"> <h3>Rolex Explorer</h3> </a>
+                    <p>Rolex Explorer II</p>
+                    <p>R$37499,99</p>
+                    <a href="cesta.html"><button class="btnComprar">Comprar!</button></a>
+                </div>
+            </div>
+
+            <div class="produto">
+                <div id="produto2">
+                    <img src="imagens/patek-nautilus.png" height="125">
+                    <a href="produto-detalhe.html"> <h3>Patek  Geneve</h3> </a>
+                    <p>Patek Philippe Geneve Nautilus</p>
+                    <p>R$3599,99</p>
+                    <a href="cesta.html"><button class="btnComprar">Comprar!</button></a>
+                </div>
+            </div>
+
+            <div class="produto">
+                <div id="produto3">
+                    <img src="imagens/cartier-tank.png" height="125">
+                    <a href="produto-detalhe.html"> <h3>Cartier Tank</h3> </a>
+                    <p>Cartier Tank Française</p>
+                    <p>R$8999,99</p>
+                    <a href="cesta.html"><button class="btnComprar">Comprar!</button></a>
+                </div>
+            </div>
+        </div> <br><br><br><br>
+        <p>⠀</p>
+
+        <footer>
+            <div id="footer">
+                <hr>
+
+                <div class="footer-esquerda">
+                    <p>Formas de pagamento</p>
+                    <img src="imagens/cartoes.png" height="70">
+                </div>
+
+                <div class="footer-central">
+                    <p>Redes sociais</p>
+                    <img src="imagens/redes.png" height="65">
+                </div>
+
+                <div class="footer-direita">
+                    <p><a href="mapa.html">Mapa do Site</a></p>
+                    <img src="">
+                    <br>
+                    <strong>Loja Virtual FrontEnd | P1 PW © 2/2022</strong> </br>
+                    <em>Marcelo Megale</em>
+                </div>
+
+                <p>⠀</p>
+
+            </div>
+        </footer>
+
+</body>
+
+</html>
